@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Your Name</title>
-  </head>
-  <body>
-    <h1>Hello, I’m [Your Name]</h1>
-    <p>Welcome to my personal website.</p>
-  </body>
-</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[Your Name]</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.tagline {
+      color: #555;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    ul.directory {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.directory li {
+      margin: 0.75rem 0;
+      font-size: 1.2rem;
+    }
+
+    ul.directory li a {
+      color: #007acc;
+      text-decoration: none;
+      padding: 0.25rem 0;
+      display: inline-block;
+      transition: color 0.2s ease;
+    }
+
+    ul.directory li a:hover {
+      color: #005f99;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+  <!-- 🔍 Plausible Analytics -->
+  <script defer data-domain="yourusername.github.io" src="https://plausible.io/js/plausible.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>[Your Name]</h1>
+    <p class="tagline">Welcome to my corner of the web.</p>
+
+    <ul class="directory">
+      <li><a href="#about">📌 About Me</a></li>
+      <li><a href="#work">💼 Work Projects</a></li>
+      <li><a href="#resume">📄 Resume</a></li>
+      <li><a href="#blog">✍️ My Blog</a></li>
+      <li><a href="#gallery">📸 Media Gallery</a></li>
+      <li><a href="#services">🛠️ Services</a></li>
+      <li><a href="#testimonials">💬 Testimonials</a></li>
+      <li><a href="#contact">📫 Contact</a></li>
+    </ul>
+
+    <!-- Optional Sections as Anchors -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>[Short bio goes here]</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>
+        <a href="https://instagram.com/pt7even">Instagram</a> |
+        <a href="https://x.com/Pr4t33kTh4w4n1">Twitter</a> |
+        <a href="https://linkedin.com/in/prateek-thawani">LinkedIn</a>
+      </p>
+      <p><a href="https://formspree.io/">Use Formspree for a simple contact form</a></p>
+    </section>
